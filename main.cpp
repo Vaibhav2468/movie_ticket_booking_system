@@ -54,7 +54,7 @@ void print_basic_screen();
 ///MMMMMMMMMMMM int main MMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 int main()
 {
-    int result=mkdir("E:\\Movie Ticket Booking APP");
+    int result=mkdir("H:\\Movie Ticket Booking APP");
     if(result!=0 && errno!=17)
     {
     printf("Sorry! Application can not run");
